@@ -1,0 +1,43 @@
+{
+  "code_version": "scci-2026-v1.0",
+  "dataset_id": "scci-2026-pulsar-sensitivity",
+  "epistemic_status": "parametric_sensitivity_benchmark_only",
+  "generated_at_utc": "2026-11-19T02:53:15Z",
+  "grids": {
+    "polynomial_sweep": {
+      "description": "Grille parametrique de la fermeture polynomiale sur (eta, phi_0)",
+      "parameters": [
+        "eta",
+        "phi_0"
+      ],
+      "present": true
+    },
+    "standard_sweep": {
+      "description": "Grille parametrique standard sur (alpha_star, kappa_R)",
+      "parameters": [
+        "alpha_star",
+        "kappa_R"
+      ],
+      "present": true
+    }
+  },
+  "methodological_reference_threshold": {
+    "role": "internal_numerical_sensitivity_benchmark",
+    "unit": "s s^-1",
+    "value": 1e-13
+  },
+  "not_an_observational_constraint": true,
+  "perturbative_bounds_polynomial": {
+    "closure": "R(Phi) = 1 + eta * Phi^2",
+    "identification_hypothesis": "R == Z_A",
+    "max_abs_delta_alpha": 0.1,
+    "max_eta_phi_max_sq": 0.1
+  },
+  "sha256_checksums": {
+    "data/processed/pulsar_field_sweep_polynomial_results.csv": "216c75a4ae2dbd42879c38b3ed8f37ef1c9ab3848c957c6472077dedb7227f03",
+    "data/processed/pulsar_field_sweep_results.csv": "9ad223ff801df0e072ff3ddbe355853a38b0428404d48375c15fbf6d6ee80fd1",
+    "data/processed/pulsar_sweep_results.csv": "339018a2c7473bd31d937a8531c3f6fdfa9497498c50502a9015c92fc0ba2ee2",
+    "data/processed/shadow_boundary_results.csv": "be8584be16ecbf903a56cba32f6c81ff250b7a2c5918c5387b73b2c18fe2465d",
+    "data/processed/shadow_sweep_results.csv": "bf8ecf51cefa0f97530ee696882d37338f03199d52e15ebbd552edfc80e3c522"
+  }
+}

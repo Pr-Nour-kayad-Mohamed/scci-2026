@@ -1,0 +1,13 @@
+phi0,r_scale,deviation_percent,distance_to_threshold_percent,classification
+0.395000,5.857143,-9.976807,0.023193,within_sensitivity_threshold
+0.360000,14.857143,-10.047611,0.047611,beyond_sensitivity_threshold
+0.360000,13.571429,-9.938777,0.061223,within_sensitivity_threshold
+0.360000,16.142857,-10.140151,0.140151,beyond_sensitivity_threshold
+0.360000,12.285714,-9.808929,0.191071,within_sensitivity_threshold
+0.360000,17.428571,-10.219805,0.219805,beyond_sensitivity_threshold
+0.360000,18.714286,-10.289090,0.289090,beyond_sensitivity_threshold
+0.360000,11.000000,-9.651319,0.348681,within_sensitivity_threshold
+0.360000,20.000000,-10.349908,0.349908,beyond_sensitivity_threshold
+0.395000,7.142857,-10.491717,0.491717,beyond_sensitivity_threshold
+0.360000,9.714286,-9.455969,0.544031,within_sensitivity_threshold
+0.430000,3.285714,-9.393823,0.606177,within_sensitivity_threshold

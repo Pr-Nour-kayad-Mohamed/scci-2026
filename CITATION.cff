@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce logiciel, ce jeu de données ou ce manuscrit, veuillez citer les métadonnées suivantes."
+title: "SCCI-2026: Variational Field Derivation, TOV-Field Coupling, and Pulsar Dipole Sensitivity Pipeline"
+authors:
+  - family-names: "Kayad"
+    given-names: "Mohamed Nour"
+    orcid: "https://orcid.org/0009-0002-1443-7599"
+version: "2026.1"
+date-released: "2026-11-19"
+license: "MIT"
