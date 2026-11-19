@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+manuscript/main.aux
+manuscript/main.log
+manuscript/main.out
