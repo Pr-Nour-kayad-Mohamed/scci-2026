@@ -1,6 +1,14 @@
 __pycache__/
 *.pyc
+*.pyo
 .pytest_cache/
+*.egg-info/
+build/
+dist/
+
 manuscript/main.aux
 manuscript/main.log
 manuscript/main.out
+manuscript/main.toc
+manuscript/main.fls
+manuscript/main.fdb_latexmk
